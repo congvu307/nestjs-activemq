@@ -6,7 +6,7 @@ Copy dependency `@nestjs/activemq` to your package.json
 
 ```json
 "dependencies": {
-    "@nestjs/activemq": "git+http://gitlab01.sgh-zr.de/sgh-ecosystem/universal-data-source/nestjs-activemq"
+    "@nestjs/activemq": "git+https://github.com/congvu307/nestjs-activemq"
   }
 ```
 
@@ -32,7 +32,7 @@ import { ActiveMQModule } from '@nestjs/activemq'
             maxConnection: 5
         })
     }]
-})// ISSAME is a function name
+})
 ```
 
 ```js
